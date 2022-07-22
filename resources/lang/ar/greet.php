@@ -5,10 +5,10 @@ return [
         'hello_monday' => 'مرحبا الاثنين!',
         'monday_is_here' => 'الاثنين هنا!',
         'show_some_monday_love' => 'أظهر بعض حب الإثنين',
-        'another_fresh_start' => 'بداية جديدة أخرى'
+        'another_fresh_start' => 'بداية جديدة أخرى',
     ],
     'tuesday' => [
-        'hello' => 'أهلا'
+        'hello' => 'أهلا',
     ],
     'wednesday' => [
         'welcome_back' => 'مرحبًا بعودتك',
@@ -37,7 +37,7 @@ return [
         'ownable_saturday' => '#يوم السبت قابل للتملك',
         'still_indoor_hangout' => 'لا يزال داخليا؟ يتسكع!',
         'you_deserve_a_great_time' => 'أنت تستحق وقتًا رائعًا',
-        'how_about_some_treats' => 'ماذا عن بعض يعامل؟'
+        'how_about_some_treats' => 'ماذا عن بعض يعامل؟',
     ],
     'sunday' => [
         'happy_new_week' => 'أسبوع جديد سعيد!',

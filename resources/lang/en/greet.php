@@ -5,10 +5,10 @@ return [
         'hello_monday' => 'Hello Monday!',
         'monday_is_here' => 'Monday is here!',
         'show_some_monday_love' => 'Show some Monday love',
-        'another_fresh_start' => 'Another fresh start'
+        'another_fresh_start' => 'Another fresh start',
     ],
     'tuesday' => [
-        'hello' => 'Hello'
+        'hello' => 'Hello',
     ],
     'wednesday' => [
         'welcome_back' => 'Welcome back',
@@ -37,10 +37,10 @@ return [
         'ownable_saturday' => '#Ownable Saturday',
         'still_indoor_hangout' => 'Still indoor? Hangout!',
         'you_deserve_a_great_time' => 'You deserve a great time',
-        'how_about_some_treats' => 'How about some treats?'
+        'how_about_some_treats' => 'How about some treats?',
     ],
     'sunday' => [
-        'happy_new_week' =>  'Happy New Week!',
+        'happy_new_week' => 'Happy New Week!',
         'happy_sunday' => 'Happy Sunday!',
         'its_a_new_week' => 'It\'s a new week',
         'new_week_wishes' => 'New week wishes',

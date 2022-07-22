@@ -32,7 +32,7 @@ class Greet extends Component
 
         $message = $messageSpecialOccasions ?? $messageTime ?? $messageDay;
 
-        $messages = __('greet::greet.' . $message);
+        $messages = __('greet::greet.'.$message);
 
         return Arr::random($messages);
     }
