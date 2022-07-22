@@ -1,11 +1,55 @@
 <?php
 
 return [
+    'monday' => [
+        'hello_monday' => 'مرحبا الاثنين!',
+        'monday_is_here' => 'الاثنين هنا!',
+        'show_some_monday_love' => 'أظهر بعض حب الإثنين',
+        'another_fresh_start' => 'بداية جديدة أخرى'
+    ],
+    'tuesday' => [
+        'hello' => 'أهلا'
+    ],
+    'wednesday' => [
+        'welcome_back' => 'مرحبًا بعودتك',
+    ],
+    'thursday' => [
+        'tbt' => '#TBT',
+        'throwback_thursday' => 'إرتداد الخميس',
+        'time_for_throwback' => 'حان وقت الإرتداد',
+        'lets_do_some_throwback' => 'دعونا نفعل بعض الإرتداد',
+        'hectic_week_huh' => 'أسبوع حافل ، أليس كذلك؟',
+    ],
+    'friday' => [
+        'tgif' => '#TGIF',
+        'the_weekend_is_here' => 'نهاية الأسبوع هنا!',
+        'have_a_nice_weekend' => 'أتمنى لك عطلة نهاية أسبوع سعيدة',
+        'how_has_the_week_been' => 'كيف كان الأسبوع؟',
+        'thank_god_its_friday' => 'الحمد لله يوم الجمعة',
+        'it_s_weekend' => 'انها عطلة نهاية الاسبوع',
+        'hello' => 'مرحبًا',
+        'weekend_is_near' => 'عطلة نهاية الأسبوع قريبة',
+    ],
+    'saturday' => [
+        'you_deserve_some_break' => 'أنت تستحق بعض الراحة',
+        'take_time_out_enjoy' => 'خذ وقتًا طويلاً واستمتع',
+        'hangout_its_saturday' => 'يتسكع! انه السبت',
+        'ownable_saturday' => '#يوم السبت قابل للتملك',
+        'still_indoor_hangout' => 'لا يزال داخليا؟ يتسكع!',
+        'you_deserve_a_great_time' => 'أنت تستحق وقتًا رائعًا',
+        'how_about_some_treats' => 'ماذا عن بعض يعامل؟'
+    ],
+    'sunday' => [
+        'happy_new_week' => 'أسبوع جديد سعيد!',
+        'happy_sunday' => 'يوم احد سعيد!',
+        'its_a_new_week' => 'إنه أسبوع جديد',
+        'new_week_wishes' => 'رغبات الأسبوع الجديد',
+    ],
     'morning' => [
         'blessed_morning' => 'صباح مبارك',
         'good_morning' => 'صباح الخير',
         'trust_you_slept_well' => 'ثق في أنك نمت جيدًا',
-        'deautiful_morning' => 'صباح جميل',
+        'beautiful_morning' => 'صباح جميل',
         'a_new_day' => 'يوم جديد',
         'have_a_fruitful_day' => 'اتمنى لك يوم مثمر',
     ],
@@ -30,13 +74,12 @@ return [
         'you_should_probably_be_in_bed' => 'ربما يجب أن تكون في السرير',
         'you_should_probably_be_in_bed_by_now' => 'ربما يجب أن تكون في السرير الآن',
         'surprised_to_see_you_up_so_late' => 'مندهش لرؤيتك متأخرا جدا',
-        'up_soearly_huh' => 'حتى وقت مبكر جدا ، هاه',
-        'up_soearly' => 'حتى وقت مبكر جدا',
-        'working Late' => 'العمل في وقت متأخر',
+        'up_so_early_huh' => 'حتى وقت مبكر جدا ، هاه',
+        'up_so_early' => 'حتى وقت مبكر جدا',
+        'working_late' => 'العمل في وقت متأخر',
         'hi_there' => 'أهلاً',
         'arent_you_sleeping' => 'لا تنام',
     ],
-    //--------------------------------Special Occasion--------------------
     'new_month' => [
         'happy_new_month' => 'بداية شهر سعيدة',
         'blessed_new_Month' => 'مباركة_شهر جديد',

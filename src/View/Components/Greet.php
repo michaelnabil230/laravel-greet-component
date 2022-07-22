@@ -3,6 +3,7 @@
 namespace MichaelNabil230\Greet\View\Components;
 
 use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
 use Illuminate\View\Component;
 
 class Greet extends Component
@@ -27,10 +28,11 @@ class Greet extends Component
     {
         $messageSpecialOccasions = $this->handleSpecialOccasions();
         $messageTime = $this->handleTimeProcessing();
+        $messageDay = $this->handleDayProcessing();
 
-        $message = $messageSpecialOccasions ?? $messageTime;
+        $message = $messageSpecialOccasions ?? $messageTime ?? $messageDay;
 
-        $messages = __('greet::greet.'.$message) ?? [];
+        $messages = __('greet::greet.' . $message);
 
         return Arr::random($messages);
     }
@@ -63,5 +65,10 @@ class Greet extends Component
         }
 
         return null;
+    }
+
+    protected function handleDayProcessing(): string
+    {
+        return Str::camel(date('l'));
     }
 }
