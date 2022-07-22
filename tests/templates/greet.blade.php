@@ -1,0 +1,1 @@
+<x-greet :username="$name" />
