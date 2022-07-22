@@ -2,8 +2,8 @@
 
 namespace MichaelNabil230\Greet\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use MichaelNabil230\Greet\GreetServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
@@ -16,6 +16,6 @@ class TestCase extends Orchestra
 
     public function getEnvironmentSetUp($app)
     {
-        $app['config']->set('view.paths', [__DIR__ . '/templates']);
+        $app['config']->set('view.paths', [__DIR__.'/templates']);
     }
 }

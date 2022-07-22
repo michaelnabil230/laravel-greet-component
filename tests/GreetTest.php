@@ -2,7 +2,6 @@
 
 namespace MichaelNabil230\Greet\Tests;
 
-use MichaelNabil230\Greet\Tests\TestCase;
 use Illuminate\Support\Facades\View;
 
 class GreetTest extends TestCase

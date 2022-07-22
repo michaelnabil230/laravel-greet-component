@@ -26,7 +26,7 @@ return [
         'how_did_your_day_go' => 'كيف سارت امورك اليوم',
     ],
     'night' => [
-        'you_up_so_late'  => 'كنت متأخرا جدا',
+        'you_up_so_late' => 'كنت متأخرا جدا',
         'you_should_probably_be_in_bed' => 'ربما يجب أن تكون في السرير',
         'you_should_probably_be_in_bed_by_now' => 'ربما يجب أن تكون في السرير الآن',
         'surprised_to_see_you_up_so_late' => 'مندهش لرؤيتك متأخرا جدا',
@@ -34,25 +34,25 @@ return [
         'up_soearly' => 'حتى وقت مبكر جدا',
         'working Late' => 'العمل في وقت متأخر',
         'hi_there' => 'أهلاً',
-        'arent_you_sleeping' => 'لا تنام'
+        'arent_you_sleeping' => 'لا تنام',
     ],
     //--------------------------------Special Occasion--------------------
     'new_month' => [
         'happy_new_month' => 'بداية شهر سعيدة',
         'blessed_new_Month' => 'مباركة_شهر جديد',
         'have_a_Happy_new_month' => 'شهر_ سعيد',
-        'its_a_new_month' => 'شهرها الجديد'
+        'its_a_new_month' => 'شهرها الجديد',
     ],
     'new_year' => [
         'happy_new_year' => 'سنة جديدة سعيدة',
-        'happy_holidays' => 'اجازة سعيدة'
+        'happy_holidays' => 'اجازة سعيدة',
     ],
     'christmas' => [
         'merry_christmas' => 'عيد ميلاد سعيد',
-        'season_greetings' => 'بمناسبة الأعياد'
+        'season_greetings' => 'بمناسبة الأعياد',
     ],
     'valentine' => [
         'its_valentine' => 'انها_فالنتين',
-        'happy_valentine' => 'عيد حب سعيد'
+        'happy_valentine' => 'عيد حب سعيد',
     ],
 ];
