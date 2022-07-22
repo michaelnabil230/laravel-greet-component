@@ -11,7 +11,7 @@
     "authors": [
         {
             "name": "Michael Nabil",
-            "email": "46572405+michaelnabil230@users.noreply.github.com",
+            "email": "michaelnabil926@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,8 +30,7 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5",
-        "spatie/laravel-ray": "^1.26"
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
