@@ -20,6 +20,6 @@ class GreetServiceProvider extends PackageServiceProvider
 
     public function registeringPackage()
     {
-        Blade::component('greet', Greet::class);
+        Blade::component(Greet::class, 'greet');
     }
 }

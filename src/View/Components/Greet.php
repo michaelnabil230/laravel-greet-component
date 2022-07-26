@@ -21,7 +21,7 @@ class Greet extends Component
     {
         $this->message = $this->message();
 
-        return view('greet::greet');
+        return view('greet::components.greet');
     }
 
     protected function message(): string
