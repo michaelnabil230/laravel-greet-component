@@ -37,19 +37,22 @@ class Greet extends Component
         return Arr::random($messages);
     }
 
-    protected function handleTimeProcessing(): string
+    protected function handleTimeProcessing(): string|null
     {
         $hour = date('H');
 
-        if ($hour < 12) {
+        if ($hour >= 5 && $hour <= 12) { // If between 5:00AM - 12:00AM
             return 'morning';
-        } elseif ($hour < 17) {
+        } elseif ($hour >= 12 && $hour <= 18) { // If between 12:00PM - 6:00PM
             return 'afternoon';
-        } elseif ($hour < 20) {
+        } elseif ($hour >= 18 && $hour <= 23) { // If between : 6:00PM - 11:00PM
             return 'evening';
         }
+        //  elseif ($hour == 00 || $hour >= 23 && $hour <= 5) { // If between : 11:00PM - 5:00PM
+        //     return 'night';
+        // }
 
-        return 'night';
+        return null;
     }
 
     protected function handleSpecialOccasions(): string|null
