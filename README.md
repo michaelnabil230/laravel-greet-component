@@ -1,8 +1,8 @@
 # Greet component for user
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/michaelnabil230/laravel-greet-component.svg?style=flat-square)](https://packagist.org/packages/michaelnabil230/laravel-greet-component)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michaelnabil230/laravel-greet-component/run-tests?label=tests)](https://github.com/michaelnabil230/laravel-greet-component/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/michaelnabil230/laravel-greet-component/Check%20&%20fix%20styling?label=code%20style)](https://github.com/michaelnabil230/laravel-greet-component/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michaelnabil230/laravel-greet-component/run-tests?label=tests)](https://github.com/michaelnabil230/laravel-greet-component/actions?query=workflow%3Arun-tests+branch%master)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/michaelnabil230/laravel-greet-component/Check%20&%20fix%20styling?label=code%20style)](https://github.com/michaelnabil230/laravel-greet-component/actions?query=workflow%3A"Check+%26+fix+styling"+branch%master)
 [![Total Downloads](https://img.shields.io/packagist/dt/michaelnabil230/laravel-greet-component.svg?style=flat-square)](https://packagist.org/packages/michaelnabil230/laravel-greet-component)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
@@ -64,7 +64,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/michaelnabil230/.github/blob/main/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/michaelnabil230/.github/blob/master/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
