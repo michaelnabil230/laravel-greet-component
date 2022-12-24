@@ -68,8 +68,6 @@ return [
         'good_evening' => 'مساء الخير',
         'how_was_your_day' => 'كيف كان يومك؟',
         'how_did_your_day_go' => 'كيف سارت امورك اليوم',
-    ],
-    'night' => [
         'you_up_so_late' => 'كنت متأخرا جدا',
         'you_should_probably_be_in_bed' => 'ربما يجب أن تكون في السرير',
         'you_should_probably_be_in_bed_by_now' => 'ربما يجب أن تكون في السرير الآن',

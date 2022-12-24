@@ -68,8 +68,6 @@ return [
         'good_evening' => 'Good evening',
         'how_was_your_day' => 'How was your day',
         'how_did_your_day_go' => 'How did your day go',
-    ],
-    'night' => [
         'you_up_so_late' => 'You up so late',
         'you_should_probably_be_in_bed' => 'You should probably be in bed',
         'you_should_probably_be_in_bed_by_now' => 'You should probably be in bed by now',

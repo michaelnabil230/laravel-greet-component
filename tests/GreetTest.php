@@ -2,20 +2,17 @@
 
 namespace MichaelNabil230\Greet\Tests;
 
-use Illuminate\Support\Facades\View;
+use Illuminate\Foundation\Testing\Concerns\InteractsWithViews;
+use MichaelNabil230\Greet\View\Components\Greet;
 
 class GreetTest extends TestCase
 {
+    use InteractsWithViews;
+
     public function test_rendering_blade_string()
     {
-        $view = View::make('greet', ['name' => 'Michael Nabil'])->render();
-
-        dd($view);
-
-        $this->assertSame('<div>
-    <h3 class="text-primary mb-1">Michael Nabil,{{ $message }}</h3>
-    <p>Here’s what happening with your site today </p>
-</div>
-', trim($view));
+        $compiled = $this->component(Greet::class, ['username' => 'Michael Nabil']);
+        $compiled->assertSeeText('Michael Nabil', false);
+        $this->assertArrayHasKey('message', $compiled->data());
     }
 }

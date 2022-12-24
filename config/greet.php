@@ -2,7 +2,7 @@
 
 return [
 
-    'is_christmas' => date('m') == 11 && date('d') == 25,
+    'is_christmas' => now()->month == 11 && now()->day == 25,
 
-    'is_valentine' => date('m') == 1 && date('d') == 14,
+    'is_valentine' => now()->month == 1 && now()->day == 14,
 ];

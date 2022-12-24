@@ -39,7 +39,7 @@ class Greet extends Component
 
     protected function handleTimeProcessing(): string|null
     {
-        $hour = date('H');
+        $hour = now()->hour;
 
         if ($hour >= 5 && $hour <= 12) { // If between 5:00AM - 12:00AM
             return 'morning';
@@ -48,16 +48,13 @@ class Greet extends Component
         } elseif ($hour >= 18 && $hour <= 23) { // If between : 6:00PM - 11:00PM
             return 'evening';
         }
-        //  elseif ($hour == 00 || $hour >= 23 && $hour <= 5) { // If between : 11:00PM - 5:00PM
-        //     return 'night';
-        // }
 
         return null;
     }
 
     protected function handleSpecialOccasions(): string|null
     {
-        if (date('d') == 1) {
+        if (now()->addMonth()->startOfMonth()->isToday()) {
             return 'new_month';
         } elseif (config('greet-component.is_christmas', false)) {
             return 'christmas';
@@ -70,6 +67,6 @@ class Greet extends Component
 
     protected function handleDayProcessing(): string
     {
-        return Str::camel(date('l'));
+        return Str::camel(now()->monthName);
     }
 }
